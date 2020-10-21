@@ -1,9 +1,9 @@
 #include <stdio.h>
 void main()
 {
-  int WinLotteryNo[10] = {1522, 1711, 5515, 7233, 5614, 8876, 1215, 4232, 9155, 9995}; 
-  float WinAmount[10] = {50000, 10000, 10000, 5000, 5000, 5000, 5000, 3000, 3000, 3000};
-  int N = 10;
+  int WinLotteryNo[12] = {1522, 1711, 5515, 7233, 5614, 8876, 1215, 4232, 9155, 9995}; 
+  float WinAmount[12] = {50000, 10000, 10000, 5000, 5000, 5000, 5000, 3000, 3000, 3000};
+  int N = 12;
   int i, won; 
   
   int YourLotteryNo;  
@@ -26,6 +26,6 @@ void main()
     printf("Enter your Lottery Number (0 to end): "); 
     scanf("%d", &YourLotteryNo); 
   }
-  printf("GOODBYE");
+  printf("GOODBYE!!!");
   scanf("%d", &i);
 }
